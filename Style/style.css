@@ -103,9 +103,38 @@ body {
 .featurette-heading {
   letter-spacing: -.05rem;
 }
+.title{
+  color: rgb(12, 98, 43);
+}
 
 /* rtl:end:remove */
-
+.CLTitle{
+  margin-bottom:2rem;
+  padding-left:1rem;
+  color: rgb(18, 62, 25);
+  border-left: 1rem solid rgb(16, 82, 16);
+  z-index: 4;
+  opacity: .5;
+}
+.imageMainSection2 img{
+  display: flex;
+ 
+}
+.HighlightImage{
+  width:40rem;
+  
+}
+.cl{
+  overflow-x:hidden;
+  background-image: url('../Photos/—Pngtree—abstract\ with\ hexagons\ pattern_5355401.png');
+  background-size:cover;
+  width: 90%;
+  height: 650px;
+  opacity: 0.2;
+  position: absolute;
+  background-blend-mode: hue;
+  background-position: left;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -125,6 +154,7 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+
   }
 }
 
