@@ -50,8 +50,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
@@ -124,6 +123,7 @@ body {
   width:40rem;
   
 }
+
 .cl{
   overflow-x:hidden;
   background-image: url('../Photos/—Pngtree—abstract\ with\ hexagons\ pattern_5355401.png');
@@ -134,6 +134,166 @@ body {
   position: absolute;
   background-blend-mode: hue;
   background-position: left;
+}
+/* News */
+
+.header_sub{
+  display: flex;
+  padding:.5em;
+  justify-content: end;
+  color:rgb(2, 92, 2);
+  font-weight: 500;
+}
+.seemore a{
+  color:rgb(2, 92, 2);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.news1{
+  background:linear-gradient(0deg, rgba(3, 2, 2, 0.459), rgba(9, 22, 16, 0.395)), url('../Photos/ccje/Screenshot\ 2023-12-14\ 100613.png');
+  color: azure;
+  background-size: cover;
+  background-position: center;
+  height: 515px;
+}
+.news2{
+  background:linear-gradient(0deg, rgba(3, 2, 2, 0.459), rgba(9, 22, 16, 0.395)), url('../Photos/ccje/Screenshot\ 2023-12-14\ 101258.png');
+  color: azure;
+  background-size: cover;
+  background-position: right;
+  height: 250px;
+}
+.news3     {
+  background:linear-gradient(0deg, rgba(3, 2, 2, 0.459), rgba(9, 22, 16, 0.395)), url('../Photos/ccje/Screenshot\ 2023-12-14\ 100644.png');
+  color: azure;
+  background-size: cover;
+  background-position: right;
+  height: 250px;
+}
+.logoarea{
+  display:flex;
+  
+  
+}
+.imgDescription{
+  width: 100%;
+  color:white;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+}
+.subDesc{
+  color: yellow;
+}
+.footerpage{
+  background-color: rgb(7, 50, 7);
+}
+
+/* footer */
+.footer{
+  background-color: #003416;
+    padding: 50px 0;
+
+}
+.footer-col{
+   width: 28%;
+   padding: 0 15px;
+}
+.footer-col-1{
+  width: 15%;
+  padding: 0 15px;
+ }
+.footer-col h4{
+  font-family: PT Serif Caption;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col p{
+  font-family: PT Serif Caption;
+  font-size: 14px;
+  color: #FEFF2C;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul p{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #9E9E9E;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col #ul2{
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #9E9E9E;
+  margin-top: 10px;
+  margin-bottom: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col ul li p{
+  font-family: 'Work Sans';
+  font-size: 14px;
+  color: #9E9E9E;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col #ul1{
+  margin-top: 35px;
+}
+.contact-icon #p3{
+  font-family: 'Work Sans';
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li a{
+  font-family: PT Serif Caption;
+  font-size: 16px;
+  color: #9E9E9E;;
+  text-decoration: none;
+  font-weight: 100;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin:0 6px 6px 0;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links {
+  
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+.row2{
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
+.row2 p {
+  color: #FEFF2C;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -149,6 +309,7 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+  
 }
 
 @media (min-width: 62em) {
@@ -157,16 +318,37 @@ body {
 
   }
 }
-
+ul{
+  list-style-type: none;
+}
 
     @media only screen and (max-width: 767px) {
       /* CSS styles for phones */
-
+      .footer{
+        padding:1em;
+      }
+      .footer-col{
+        padding: 1rem;
+        width: 30%;
+      }
+      .footer-col-1{
+        width: 100%;
+        padding: 0 0;
+        text-align: center;
+       }
     }
     
     /* Tablets (768px to 1023px) */
     @media only screen and (min-width: 768px) and (max-width: 1023px) {
       /* CSS styles for tablets */
+      .footer-col{
+        width: 33%;
+    }
+    .footer-col-1{
+      width: 100%;
+      padding: 0 15px;
+      text-align: center;
+     }
     }
     
     /* Laptops (1024px and above) */
