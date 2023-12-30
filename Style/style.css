@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -19,7 +21,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for opacity */
+  background-color: rgba(0, 0, 0, 0.632); /* Adjust the alpha value for opacity */
 }
 
 .carousel-content {
@@ -44,8 +46,12 @@
     color:white;
     
 }
+.subHeader2{
+  color:#065627;
+  font-weight: 700;
+}
 .ForbesNavbar{
-    background-color: rgba(7, 43, 7, 0.858);
+    background-color: rgba(7, 43, 7, 0.934);
     backdrop-filter: blur(12px);
      
 }
@@ -131,15 +137,15 @@ body {
 .title{
   color: rgb(12, 98, 43);
 }
-
+.c3-header{
+  color: #065627;
+  font-weight: 700  ;
+}
 /* rtl:end:remove */
 .CLTitle{
-  margin-bottom:2rem;
-  padding-left:1rem;
-  color: rgb(18, 62, 25);
-  border-left: 1rem solid rgb(16, 82, 16);
-  z-index: 4;
-  opacity: .5;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: #065627;
 }
 .imageMainSection2 img{
   display: flex;
@@ -149,7 +155,10 @@ body {
   width:40rem;
   
 }
-
+.headerss{
+  color:#065627;
+  font-weight: 700;
+}
 .cl{
   overflow-x:hidden;
   background-image: url('../Photos/—Pngtree—abstract\ with\ hexagons\ pattern_5355401.png');
@@ -170,12 +179,14 @@ body {
   color:rgb(2, 92, 2);
   font-weight: 500;
 }
-.seemore a{
+.seemore a,
+.seemore i{
   color:rgb(2, 92, 2);
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 .news1{
   background:linear-gradient(0deg, rgba(3, 2, 2, 0.459), rgba(9, 22, 16, 0.395)), url('../Photos/ccje/Screenshot\ 2023-12-14\ 100613.png');
   color: azure;
