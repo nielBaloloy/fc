@@ -4,9 +4,34 @@
     box-sizing: border-box;
     
 }
+.cTitle{
+  font-size: 68px;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for opacity */
+}
+
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
 
 .logo{
-    
     min-width: 250px;
     display: flex;
 }
@@ -20,8 +45,9 @@
     
 }
 .ForbesNavbar{
-    background-color: rgb(6, 56, 6);
-   
+    background-color: rgba(7, 43, 7, 0.858);
+    backdrop-filter: blur(12px);
+     
 }
 .nav-item a{
     width: 110px;
@@ -60,7 +86,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 9rem;
+  margin-bottom: 2rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -181,6 +207,9 @@ body {
   color:white;
   text-transform: uppercase;
   font-family: 'Times New Roman', Times, serif;
+}
+.sectio3_1{
+  margin-bottom: 3px;
 }
 .subDesc{
   color: yellow;
