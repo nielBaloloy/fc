@@ -402,7 +402,9 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-  
+  .cTitle{
+    font-size: 49px;
+  }
 }
 
 @media (min-width: 62em) {
@@ -429,6 +431,9 @@ ul{
         padding: 0 0;
         text-align: center;
        }
+       .cTitle{
+        font-size: 45px;
+       }
     }
     
     /* Tablets (768px to 1023px) */
@@ -442,6 +447,7 @@ ul{
       padding: 0 15px;
       text-align: center;
      }
+     
     }
     
     /* Laptops (1024px and above) */
