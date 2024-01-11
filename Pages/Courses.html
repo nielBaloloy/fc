@@ -98,24 +98,24 @@
        
           <div class="list-group list-group-flush">
 
-            <a href="#" class="list-group-item list-group-item-action list-group-flush">
-              <span class="h5">Bachelor of Science in Business Administration Major in Microfinance</span><div class="department">College of Business Education</div>
+            <a href="#" class="list-group-item list-group-item-action list-group-flush" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(0)">
+              <span class="tableheader">Bachelor of Science in Business Administration Major in Microfinance</span><div class="department">College of Business Education</div>
             </a>
           
-            <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Bachelor of Science in Business Administration Major in Marketing Management </span><div class="department">College of Business Education</div>
+            <a href="#" class="list-group-item list-group-item-action  "  data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(1)">
+              <span class="tableheader">Bachelor of Science in Business Administration Major in Marketing Management </span><div class="department">College of Business Education</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Bachelor in Public Administration</span><div class="department">College of Business Education</div>
+            <a href="#" class="list-group-item list-group-item-action " data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(2)">
+              <span class="tableheader">Bachelor in Public Administration</span><div class="department">College of Business Education</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action IT ">
-              <span class="h5">Bachelor of Science in Information Technology</span><div class="department">College of Information Technology Education </div>
+            <a href="#" class="list-group-item list-group-item-action IT "data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(3)">
+              <span class="tableheader">Bachelor of Science in Information Technology</span><div class="department">College of Information Technology Education </div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Bachelor of Science in Information Technology with Specialization in Digital Animation</span><div class="department">College of Information Technology Education</div>
+            <a href="#" class="list-group-item list-group-item-action " data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(4)">
+              <span class="tableheader">Bachelor of Science in Information Technology with Specialization in Digital Animation</span><div class="department">College of Information Technology Education</div>
             </a>
-            <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Bachelor of Science in Criminology</span><div class="department">College of Criminal Justice Education</div>
+            <a href="#" class="list-group-item list-group-item-action " data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="toggleModal(5)">
+              <span class="tableheader">Bachelor of Science in Criminology</span><div class="department">College of Criminal Justice Education</div>
             </a>
            
           </div>
@@ -124,26 +124,50 @@
           <div class="list-group list-group-flush">
 
             <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">General Academic Strand (GAS)</span><div class="department">Academic Track</div>
+              <span class="tableheader">General Academic Strand (GAS)</span><div class="department">Academic Track</div>
             </a>
           
             <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Accountancy, Business, Management (ABM)</span><div class="department">Academic Track</div>
+              <span class="tableheader">Accountancy, Business, Management (ABM)</span><div class="department">Academic Track</div>
             </a>
             <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Animation</span><div class="department">TVL Track ICT</div>
+              <span class="tableheader">Animation</span><div class="department">TVL Track ICT</div>
             </a>
             <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Programming</span><div class="department">TVL Track ICT</div>
+              <span class="tableheader">Programming</span><div class="department">TVL Track ICT</div>
             </a>
             <a href="#" class="list-group-item list-group-item-action ">
-              <span class="h5">Computer Systems Servicing</span><div class="department">TVL Track ICT</div>
+              <span class="tableheader">Computer Systems Servicing</span><div class="department">TVL Track ICT</div>
             </a>
             
            
           </div>
         </div>
       </div>
+      <!-- modal -->
+      <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="header p-4 d-flex justify-content-end" id="headerImg">
+            
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+          <div class="headerImg" ></div>
+            <div class="modal-body pt-1 px-4">
+              <div class="title">
+                <div class="modal-title " id="exampleModalLabel"></div>
+                <h6 id="Depart"></h6>
+               </div>
+            
+             <div class="definition pt-4" id="definition">
+            
+             </div>
+             </div>
+           
+          </div>
+        </div>
+      </div>
+     
 </body>
 </html>
 <script src="../Script/courseScript.js">
